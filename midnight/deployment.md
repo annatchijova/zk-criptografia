@@ -22,7 +22,7 @@ Pasos (flujo documentado, ej. tutorial counter y plantillas OpenZeppelin):
 - Limitación: testnet sufre resets y cambios de versión; los contratos desplegados pueden volverse incompatibles ([[limitaciones]]).
 
 ## Aplicaciones concretas
-- Publicar el contrato del hackathon y demo en vivo contra testnet con Lace.
+- Publicar el contrato de la investigación y demo en vivo contra testnet con Lace.
 
 ## Relación con mi proyecto
 La dirección del contrato desplegado es el "sello institucional": el peritaje ZK se ancla a un contrato público y auditable, cuya verifier key el tribunal puede usar sin depender de nosotros — un punto fuerte para el estándar Daubert de revisión por pares.

@@ -1,6 +1,6 @@
 # zk-notes
 
-Knowledge base en español para un proyecto de hackathon sobre **Midnight (ZK)**: probar, sin revelar datos privados, que un perito es quien dice ser y que posee evidencia de víctimas, cumpliendo el estándar **Daubert**.
+Knowledge base en español para un proyecto de investigación sobre **Midnight (ZK)**: probar, sin revelar datos privados, que un perito es quien dice ser y que posee evidencia de víctimas, cumpliendo el estándar **Daubert**.
 
 ## Estructura
 

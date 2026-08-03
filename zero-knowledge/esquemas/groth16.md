@@ -23,7 +23,7 @@ Zcash Sapling (originalmente), Tornado Cash, rollup Loopring, verificación de p
 Midnight prefirió esquemas de setup universal/actualizable ([[plonk]], [[halo2]]) precisamente porque los contratos Compact cambian con cada deployment; un setup por circuito sería operacionalmente inviable a escala de ecosistema.
 
 ## Relación con mi proyecto (si aplica)
-Si el circuito pericial es fijo y auditado una sola vez (membresía en registro de peritos + posesión de evidencia comprometida), Groth16 minimiza el costo de verificación on-chain — ideal si el presupuesto del hackathon se mide en fees.
+Si el circuito pericial es fijo y auditado una sola vez (membresía en registro de peritos + posesión de evidencia comprometida), Groth16 minimiza el costo de verificación on-chain — ideal si el presupuesto del proyecto se mide en fees.
 
 ## Referencias
 - Groth (2016). *On the Size of Pairing-based Non-interactive Arguments*. EUROCRYPT 2016.

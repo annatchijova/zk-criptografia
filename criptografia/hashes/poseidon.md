@@ -23,7 +23,7 @@ Poseidon es una construcción tipo **esponja** sobre $\mathbb{F}_p$ con estado d
 Midnight usa Poseidon como hash principal en Compact y en su ledger (estado privado, Merkle trees del estado), porque el prover corre en el dispositivo del usuario y el costo de constraints domina la experiencia. Está disponible en la librería estándar de Compact.
 
 ## Relación con mi proyecto (si aplica)
-Para el árbol de Merkle de evidencias de víctimas (probar posesión sin revelar el contenido) y para el compromiso de identidad del perito, Poseidon minimiza el tiempo de prueba en el cliente, clave en un hackathon con demo en navegador.
+Para el árbol de Merkle de evidencias de víctimas (probar posesión sin revelar el contenido) y para el compromiso de identidad del perito, Poseidon minimiza el tiempo de prueba en el cliente, clave en una investigación con demo en navegador.
 
 ## Referencias
 - Grassi, Khovratovich, Rechberger, Roy, Schofnegger, *Poseidon: A New Hash Function for Zero-Knowledge Proof Systems*, USENIX Security 2021. https://eprint.iacr.org/2019/458

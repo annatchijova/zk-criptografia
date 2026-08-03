@@ -13,7 +13,7 @@ Introduce un *inner-product argument* recursivo: probar que dos vectores comprom
 La verificación es lineal en el tamaño del circuito (O(n) multiexponentiaciones), más lenta que SNARKs. No hay recursión barata ni verificación sublineal; las pruebas no son sucintas para circuitos grandes. La seguridad depende de ECDLP: no es post-cuántica.
 
 ## Impacto histórico (qué sistemas reales lo usan hoy)
-Adoptado en producción por Monero (desde 2018, redujo ~80% el tamaño de transacciones), Grin/MimbleWimble, Mina (componentes), Zcash (herramientas relacionadas) y librerías como dalek-bulletproofs. Su inner-product argument inspiró Halo/Halo2 (recursión sin trusted setup), relevante para Midnight/Cardano. En un hackathon: ideal para probar que datos sensibles (montos, edades, conteos de evidencia) caen en rangos válidos sin revelarlos.
+Adoptado en producción por Monero (desde 2018, redujo ~80% el tamaño de transacciones), Grin/MimbleWimble, Mina (componentes), Zcash (herramientas relacionadas) y librerías como dalek-bulletproofs. Su inner-product argument inspiró Halo/Halo2 (recursión sin trusted setup), relevante para Midnight/Cardano. En la investigación: ideal para probar que datos sensibles (montos, edades, conteos de evidencia) caen en rangos válidos sin revelarlos.
 
 ## Referencias
 - Bünz, Bootle, Boneh, Poelstra, Wuille, Maxwell. "Bulletproofs: Short Proofs for Confidential Transactions and More". IEEE S&P 2018. https://eprint.iacr.org/2017/1066

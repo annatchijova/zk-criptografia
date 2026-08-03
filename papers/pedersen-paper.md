@@ -13,7 +13,7 @@ Introduce el **Pedersen commitment**: C = g^x h^r en un grupo de orden primo, do
 El binding es solo computacional (se rompe con computación cuántica o si se conoce log_g(h)); se requiere que nadie conozca la relación entre g y h. No aporta por sí mismo pruebas de rango ni de conocimiento: hay que combinarlo con sigma protocols o SNARKs.
 
 ## Impacto histórico (qué sistemas reales lo usan hoy)
-Es de los building blocks más usados de la criptografía aplicada: transacciones confidenciales (Blockstream/Elements, Monero), MimbleWimble, Zcash, rangos en Bulletproofs, DKGs y umbrales en wallets. En Midnight (basado en Cardano, ZK de datos) los Pedersen-style commitments son la forma natural de comprometer datos sensibles. En el hackathon: comprometer identidad del perito y hashes de evidencia preservando ocultamiento perfecto y verificabilidad posterior (cadena de custodia estilo Daubert).
+Es de los building blocks más usados de la criptografía aplicada: transacciones confidenciales (Blockstream/Elements, Monero), MimbleWimble, Zcash, rangos en Bulletproofs, DKGs y umbrales en wallets. En Midnight (basado en Cardano, ZK de datos) los Pedersen-style commitments son la forma natural de comprometer datos sensibles. En la investigación: comprometer identidad del perito y hashes de evidencia preservando ocultamiento perfecto y verificabilidad posterior (cadena de custodia estilo Daubert).
 
 ## Referencias
 - Pedersen, T. P. "Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing". CRYPTO 1991, LNCS 576. DOI: 10.1007/3-540-46766-1_9

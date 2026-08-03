@@ -13,7 +13,7 @@ Dos contribuciones fundacionales: (1) el **protocolo de identificación Fiat–S
 La seguridad de la transformación se prueba en el modelo del oráculo aleatorio; existen construcciones teóricas de hashes para las que falla (Canetti–Goldreich–Halevi). Requiere incluir en el hash todo el contexto (transcript completo) para evitar ataques de "weak Fiat–Shamir" que aparecieron en implementaciones reales (vulnerabilidades en 2022 en librerías ZK). El esquema original de factorización hoy es solo histórico.
 
 ## Impacto histórico (qué sistemas reales lo usan hoy)
-La transformación está en *todas* las pruebas ZK prácticas: Schnorr signatures (Bitcoin Taproot), SNARKs, STARKs, Bulletproofs, y por tanto en Midnight/Compact. Todo protocolo no interactivo moderno hereda este truco de 1986. Para el hackathon: permite que el perito genere su prueba de identidad offline y el juez la verifique sin interacción.
+La transformación está en *todas* las pruebas ZK prácticas: Schnorr signatures (Bitcoin Taproot), SNARKs, STARKs, Bulletproofs, y por tanto en Midnight/Compact. Todo protocolo no interactivo moderno hereda este truco de 1986. Para la investigación: permite que el perito genere su prueba de identidad offline y el juez la verifique sin interacción.
 
 ## Referencias
 - Fiat, A., Shamir, A. "How To Prove Yourself: Practical Solutions to Identification and Signature Problems". CRYPTO 1986, LNCS 263. DOI: 10.1007/3-540-47721-7_12

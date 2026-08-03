@@ -1,7 +1,7 @@
 # Benchmarking de pruebas ZK
 
 ## ¿Qué problema resuelve?
-Una afirmación de eficiencia sin números reproducibles no sirve ni ante un tribunal ni en un hackathon. El [[benchmarking]] define qué medir, cómo medirlo y cómo reportarlo para que un tercero lo crea (véase [[reproducibilidad]]).
+Una afirmación de eficiencia sin números reproducibles no sirve ni ante un tribunal ni en una investigación. El [[benchmarking]] define qué medir, cómo medirlo y cómo reportarlo para que un tercero lo crea (véase [[reproducibilidad]]).
 
 ## Idea intuitiva
 Como el consumo de un auto: no alcanza decir "gasta poco"; hay que declarar ciclo de prueba, condiciones y cifras concretas, y que otro pueda repetir la medición.

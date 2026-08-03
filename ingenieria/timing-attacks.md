@@ -18,7 +18,7 @@ Mitigaciones estándar:
 - Evitar ramas y tablas dependientes del secreto.
 
 ## Complejidad / garantías / limitaciones
-**En circuitos ZK la situación es favorable**: un circuito aritmético se ejecuta en un número fijo de restricciones — no hay ramas dinámicas — así que el *witness generation* es esencialmente de tiempo fijo respecto a la estructura del circuito. El riesgo real queda en: (a) la preparación de inputs fuera del circuito (parsing, hashing previo, firma), (b) la comparación del nullifier o del digest de evidencia en el contrato/aplicación, (c) librerías de curva subyacentes. Para hackathon: priorizar comparaciones de tiempo constante en el glue code y usar librerías auditadas, no escribir aritmética propia.
+**En circuitos ZK la situación es favorable**: un circuito aritmético se ejecuta en un número fijo de restricciones — no hay ramas dinámicas — así que el *witness generation* es esencialmente de tiempo fijo respecto a la estructura del circuito. El riesgo real queda en: (a) la preparación de inputs fuera del circuito (parsing, hashing previo, firma), (b) la comparación del nullifier o del digest de evidencia en el contrato/aplicación, (c) librerías de curva subyacentes. Para la investigación: priorizar comparaciones de tiempo constante en el glue code y usar librerías auditadas, no escribir aritmética propia.
 
 ## Aplicaciones concretas
 Comparar el commitment de evidencia recibido con el registrado usando comparación constante; nunca `if hash == esperado { early return }`.

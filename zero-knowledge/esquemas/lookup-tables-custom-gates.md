@@ -23,7 +23,7 @@ zkEVMs (opcodes EVM vía lookups), hashes SHA-256/Keccak dentro de circuitos, co
 El motor PLONKish de Midnight soporta custom gates y lookups; las primitivas de Compact (hash, verificación de firmas, rangos) se implementan así. Sin lookups, un contrato Compact realista sería imposible de probar en tiempo razonable.
 
 ## Relación con mi proyecto (si aplica)
-El circuito pericial necesita: range proof de fechas de cadena de custodia, XOR/rotaciones del hash de la evidencia, y comparaciones de matrícula. Con lookups el circuito queda en decenas de miles de restricciones; sin ellos, en millones — la diferencia entre demo viable e inviable en el hackathon.
+El circuito pericial necesita: range proof de fechas de cadena de custodia, XOR/rotaciones del hash de la evidencia, y comparaciones de matrícula. Con lookups el circuito queda en decenas de miles de restricciones; sin ellos, en millones — la diferencia entre demo viable e inviable en la investigación.
 
 ## Referencias
 - Gabizon & Williamson (2020). *plookup: A simplified polynomial protocol for lookup tables*. IACR ePrint 2020/315.

@@ -18,7 +18,7 @@ Es como entregar una tarea de matemática: el alumno (servidor) no solo da el re
 - La traducción de C a circuitos perdía eficiencia (memoria y bucles caros de aritmetizar).
 
 ## Impacto histórico (qué sistemas reales lo usan hoy)
-Pinocchio inauguró la era "práctica" de los zkSNARKs: libsnark y toda la línea Zcash descienden de él, y su pipeline compilador→R1CS→SNARK es la plantilla de frameworks modernos como circom y las librerías que alimentan a **Midnight (Compact)**. Para un hackathon de evidencia pericial, es el punto de partida conceptual: "compilá tu afirmación legal (soy perito, poseo la evidencia) a un circuito verificable".
+Pinocchio inauguró la era "práctica" de los zkSNARKs: libsnark y toda la línea Zcash descienden de él, y su pipeline compilador→R1CS→SNARK es la plantilla de frameworks modernos como circom y las librerías que alimentan a **Midnight (Compact)**. Para una investigación de evidencia pericial, es el punto de partida conceptual: "compilá tu afirmación legal (soy perito, poseo la evidencia) a un circuito verificable".
 
 ## Referencias
 - Parno, Howell, Gentry, Raykova. "Pinocchio: Nearly Practical Verifiable Computation", IEEE S&P (Oakland) 2013. DOI: 10.1109/SP.2013.47 ; ePrint relacionado (GGPR13): https://eprint.iacr.org/2012/215

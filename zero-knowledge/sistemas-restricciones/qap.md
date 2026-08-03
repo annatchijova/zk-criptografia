@@ -24,7 +24,7 @@ es decir, existe $h(x)$ con $P = h \cdot t$.
 Midnight usa un backend tipo Plonk/Halo2 (sin QAP con setup por circuito), pero entender QAP explica por qué Plonk reemplazó la interpolación fila-por-fila por un argumento de permutación universal.
 
 ## Relación con mi proyecto
-Si el hackathon exigiera Groth16 (prueba mínima on-chain), la lógica "perito + evidencia" pasaría por R1CS → QAP; el tamaño del circuito definiría el SRS y el gas de verificación.
+Si la investigación exigiera Groth16 (prueba mínima on-chain), la lógica "perito + evidencia" pasaría por R1CS → QAP; el tamaño del circuito definiría el SRS y el gas de verificación.
 
 ## Referencias
 - Gennaro, Gentry, Parno, Raykova, *Quadratic Span Programs and Succinct NIZKs without PCPs*, EUROCRYPT 2013.

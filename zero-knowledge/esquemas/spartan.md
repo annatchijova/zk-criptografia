@@ -22,7 +22,7 @@ Fundamento de los folding schemes modernos: [[nova]] adopta la maquinaria sumche
 No es el stack de Midnight (Plonkish/Halo2), pero Spartan ilustra el eje de diseño opuesto: transparencia total y prover velocísimo a costa de pruebas grandes — relevante si las pruebas periciales se verifican off-chain entre partes y no on-chain.
 
 ## Relación con mi proyecto (si aplica)
-Para un hackathon, Spartan vía librerías (microsoft/Spartan, Nova-Scotia) permite probar ejecuciones grandes de análisis forense (p. ej., "corrí este hasheo sobre 1 GB de evidencia") con prover rápido y sin ceremonia, verificando off-chain ante el tribunal.
+Para esta investigación, Spartan vía librerías (microsoft/Spartan, Nova-Scotia) permite probar ejecuciones grandes de análisis forense (p. ej., "corrí este hasheo sobre 1 GB de evidencia") con prover rápido y sin ceremonia, verificando off-chain ante el tribunal.
 
 ## Referencias
 - Setty (2019). *Spartan: Efficient and general-purpose zkSNARKs without trusted setup*. CRYPTO 2020; IACR ePrint 2019/550.

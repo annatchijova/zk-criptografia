@@ -21,7 +21,7 @@ Verificación de imágenes forenses E01, integridad de videos de body-cams, corr
 En Midnight, el hash de la evidencia se compromete on-chain (commitment) de forma inmutable y con timestamp, sin publicar el archivo. Un circuito Compact prueba en ZK que el perito posee la preimagen del commitment, cumpliendo el rol probatorio del hash más el de posesión, sin revelar datos de víctimas.
 
 ## Relación con mi proyecto (si aplica)
-El núcleo probatorio del hackathon: hash SHA-256 de la evidencia → commitment on-chain en Midnight → prueba ZK de conocimiento de la preimagen por el perito acreditado.
+El núcleo probatorio de la investigación: hash SHA-256 de la evidencia → commitment on-chain en Midnight → prueba ZK de conocimiento de la preimagen por el perito acreditado.
 
 ## Referencias
 - NIST SP 800-86, §3.1 (2006).

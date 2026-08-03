@@ -13,7 +13,7 @@ Define una permutación esponja sobre campos Fp con la construcción HADES: rond
 Criptoanálisis posterior (ataques algebraicos mejorados) forzó revisar parámetros y aumentar rondas en algunas instancias; es una primitiva joven comparada con SHA. Fuera del circuito es más lento que hashes tradicionales en CPU. Surgieron variantes (Poseidon2, Rescue-Prime, Reinforced Concrete) para corregir debilidades y mejorar rendimiento.
 
 ## Impacto histórico (qué sistemas reales lo usan hoy)
-Estándar de facto en el ecosistema ZK: Filecoin, Loopring, zkSync, Polygon Hermez/iden3, Mina, Semaphore (identidad anónima) y librerías circom/halo2. En Midnight es clave para nullifiers y árboles de Merkle de estado privado. En un hackathon: hash de compromisos de evidencia (fotos, hashes de archivos de la víctima) dentro del circuito con bajo costo.
+Estándar de facto en el ecosistema ZK: Filecoin, Loopring, zkSync, Polygon Hermez/iden3, Mina, Semaphore (identidad anónima) y librerías circom/halo2. En Midnight es clave para nullifiers y árboles de Merkle de estado privado. En la investigación: hash de compromisos de evidencia (fotos, hashes de archivos de la víctima) dentro del circuito con bajo costo.
 
 ## Referencias
 - Grassi, Khovratovich, Rechberger, Roy, Schofnegger. "Poseidon: A New Hash Function for Zero-Knowledge Proof Systems". USENIX Security 2021. https://eprint.iacr.org/2019/458

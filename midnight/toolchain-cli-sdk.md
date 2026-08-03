@@ -26,7 +26,7 @@ Es un taller con tres máquinas: el **compilador** traduce la receta (Compact) a
 - Plantillas: OpenZeppelin midnight-apps, ejemplos oficiales (bboard, counter, ZKLoan).
 
 ## Relación con mi proyecto
-Presupuesto de ingeniería realista para el hackathon: el CLI cubre compilación, el SDK la integración con la wallet del perito; la lógica probatoria vive íntegramente en el contrato Compact y los witnesses TypeScript.
+Presupuesto de ingeniería realista para la investigación: el CLI cubre compilación, el SDK la integración con la wallet del perito; la lógica probatoria vive íntegramente en el contrato Compact y los witnesses TypeScript.
 
 ## Referencias
 - https://docs.midnight.network/blog/compact-developer-tools

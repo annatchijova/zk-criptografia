@@ -21,7 +21,7 @@ En jurisdicciones Frye, la admisibilidad de hashing forense o de una prueba ZK d
 Un circuito Compact que prueba posesión de evidencia puede argumentar aceptación general apoyándose en primitivas estándar (hash, firmas, commitments) ya validadas por el forense digital; la parte novedosa (ZK) reduce el riesgo porque no exige revelar datos.
 
 ## Relación con mi proyecto (si aplica)
-Si mi hackathon apunta a jurisdicciones Frye, debo enfatizar que la técnica criptográfica subyacente ya goza de consenso técnico, en lugar de pedir al juez que evalúe la matemática ZK.
+Si mi investigación apunta a jurisdicciones Frye, debo enfatizar que la técnica criptográfica subyacente ya goza de consenso técnico, en lugar de pedir al juez que evalúe la matemática ZK.
 
 ## Referencias
 - *Frye v. United States*, 293 F. 1013 (D.C. Cir. 1923).

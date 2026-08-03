@@ -13,7 +13,7 @@ Midnight es una *partner chain* de Cardano (seguridad heredada de Ouroboros) ori
 Red joven (devnet/testnet 2023-2024, mainnet en curso): herramientas y documentación cambian rápido. Los SNARKs usados heredan cuestiones de setup/circuitos; el costo de pruebas grandes y la gestión del estado privado local (backup, sincronización) son retos de UX. Casos de uso regulatorios aún sin jurisprudencia.
 
 ## Impacto histórico (qué sistemas reales lo usan hoy)
-Pionero en "ZK regulatorio": identidad verificable, credenciales, cumplimiento con privacidad. Para el hackathon es la plataforma objetivo: un contrato Compact puede verificar la acreditación del perito (credencial ZK) y la posesión de evidencia hasheada (Pedersen/Poseidon) generando un registro auditable que apoya los criterios Daubert de fiabilidad y cadena de custodia sin exponer a las víctimas.
+Pionero en "ZK regulatorio": identidad verificable, credenciales, cumplimiento con privacidad. Para la investigación es la plataforma objetivo: un contrato Compact puede verificar la acreditación del perito (credencial ZK) y la posesión de evidencia hasheada (Pedersen/Poseidon) generando un registro auditable que apoya los criterios Daubert de fiabilidad y cadena de custodia sin exponer a las víctimas.
 
 ## Referencias
 - Midnight Network, documentación oficial: https://docs.midnight.network

@@ -15,7 +15,7 @@ Fuga de información sobre datos secretos (clave del perito, *witnesses* con dat
 - **Errores**: mensajes de fallo que distinguen entradas (*padding oracle* y análogos).
 
 ## Complejidad / garantías / limitaciones
-La mitigación (código de tiempo constante, *blinding*, mezcla de tráfico) tiene costo de rendimiento. En contexto hackathon, el riesgo dominante y realista es más modesto: metadatos on-chain, logs de depuración con witnesses, y reutilización de *nonces* — más que DPA sobre hardware.
+La mitigación (código de tiempo constante, *blinding*, mezcla de tráfico) tiene costo de rendimiento. En el contexto de la investigación, el riesgo dominante y realista es más modesto: metadatos on-chain, logs de depuración con witnesses, y reutilización de *nonces* — más que DPA sobre hardware.
 
 ## Aplicaciones concretas
 - No loggear witnesses ni claves en el pipeline de generación de pruebas.
