@@ -20,14 +20,15 @@ Knowledge base en español para un proyecto de hackathon sobre **Midnight (ZK)**
 | `blockchain/modelos-datos/` | 6 | Merkle trees, SMT, MMR, Patricia, UTXO/eUTXO, state commitments |
 | `blockchain/escalabilidad/` | 6 | Rollups, L2, validity/fraud proofs, DA, light clients |
 | `blockchain/operacion/` | 3 | Mempool, gas, ciclo de vida de transacción |
-| `midnight/` | 11 + enlaces | Arquitectura, Compact, tipos, circuitos, privacidad, claves, toolchain, deployment, limitaciones |
+| `midnight/` | 16 | Arquitectura, Compact, tipos, circuitos, privacidad, claves, toolchain, deployment, limitaciones (incluye enlaces a notas canónicas de otras carpetas) |
 | `ingenieria/` | 17 | Threat modeling, supuestos, TCB, agilidad criptográfica, side channels, replay, determinismo, reproducibilidad, verificación formal, testing, fuzzing, benchmarking, complejidad, trade-offs |
 | `papers/` | 17 | Una nota por paper fundacional (GMR85 → Midnight whitepaper) |
 | `legal/` | 15 | Daubert, Frye, FRE 702, cadena de custodia, evidencia digital, RFC 3161, ISO 27037, NIST, ENFSI, SWGDE, tasa de error |
-| `hackathon-notes/` | plantilla | Decisiones tomadas durante el evento |
+
+Cada carpeta tiene su propio `README.md` con el índice de notas.
 
 ## Convenciones
 
 - **Estructura fija por nota**: problema → intuición → definición formal → complejidad/garantías/limitaciones → aplicaciones → relación con Midnight/Compact → relación con el proyecto → referencias.
-- **Notas canónicas**: temas transversales (Merkle trees, witness, finalidad, trusted setup, nullifiers) viven en una sola carpeta; las demás carpetas los referencian con `[[wikilinks]]` o archivos-enlace cortos.
+- **Notas canónicas**: temas transversales (Merkle trees, witness, finalidad, trusted setup, nullifiers) viven en una sola carpeta; las demás carpetas los referencian con `[[wikilinks]]` o archivos-enlace cortos (ver por ejemplo `midnight/finality.md`).
 - Todo el contenido está escrito con palabras propias; cada nota cierra con referencias verificables (papers, RFCs, normas, documentación oficial).
